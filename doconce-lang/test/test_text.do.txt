@@ -1,0 +1,26 @@
+if a == b: 
+
+!bc pyprog
+def f(x):
+    return x**2
+!ec
+
+dege
+
+!bc 
+def f(x):
+    return x**2
+!ec
+
+===== Section =====
+
+_bold_
+
+*italic*
+
+
+!bt
+\begin{equation}
+e=mc^2
+\end{equation}
+!et

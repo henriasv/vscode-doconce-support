@@ -1,0 +1,26 @@
+{
+    "name": "doconce-lang",
+    "displayName": "doconce-lang",
+    "description": "Syntax highlighting for doconce",
+    "version": "0.0.1",
+    "publisher": "henriasv",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "doconce",
+            "aliases": ["doconce", "doconce"],
+            "extensions": [".do.txt", ".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "doconce",
+            "scopeName": "source.doconce",
+            "path": "./syntaxes/doconce.tmLanguage.json"
+        }]
+    }
+}
