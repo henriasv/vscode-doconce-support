@@ -2,8 +2,9 @@
     "name": "doconce-lang",
     "displayName": "doconce-lang",
     "description": "Syntax highlighting for doconce",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "henriasv",
+    "repository" : "https://github.com/henriasv/vscode-doconce-support",
     "engines": {
         "vscode": "^1.27.0"
     },
