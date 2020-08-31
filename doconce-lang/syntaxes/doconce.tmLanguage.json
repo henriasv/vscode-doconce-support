@@ -18,6 +18,15 @@
 			"name": "meta.definition.doconce"
 		  },
 		  {
+			"match": "^(Q:|Cr:|Cw:|E:|K:|L:|H:|NP:).*$",
+			"captures": {
+			  "1": {
+				"name": "punctuation.definition.keyword.doconce"
+			  }
+			},
+			"name": "meta.definition.doconce"
+		  },
+		  {
 			"begin": "^\\s*(#)\\s*(#)\\s*(include|import)\\b\\s+",
 			"captures": {
 			  "1": {
