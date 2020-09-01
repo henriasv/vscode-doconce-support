@@ -1,0 +1,54 @@
+AUTHOR: The author 
+TITLE: 
+
+!bquiz
+Q: Here is a famous quote:
+!bquote
+Premature optimization is the root of all evil.
+!equote 
+_in_ this world. This *is* 
+This quote is attributed to
+
+Cw: Geroge W. Bush _in_ 
+_in_ 
+
+Cr: Donald Knuth
+E: According to "Wikiquote": "http://en.wikiquote.org/wiki/Donald_Knuth",
+Donald Knuth wrote this statement in *Structured Programming with
+Goto Statements*. Computing Surveys, _6_:4,
+pp. 261-301, _1974_.
+
+Cw: Ole-Johan Dahl
+E: Ole-Johan Dahl was a famous Norwegian professor of computer
+science and together with Kristen Nygaard the inventor of
+object-oriented programming, but he is not the man behind this
+quote.
+!equiz
+
+!bex
+!bsubex
+This is an exercise text.
+!banswer
+This is the answer to the exercise. _in_ 
+!eanswer 
+!esubex 
+!eex 
+
+!bquote
+This is quote text 
+!equote
+
+Hva med vanlig tekst? 
+
+!bt
+\begin{equation}
+f(x) = 4 
+\end{equation}
+!et 
+
+
+!bc py
+def f(x): 
+    return 10 
+!ec
+

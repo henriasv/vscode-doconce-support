@@ -18,15 +18,6 @@
 			"name": "meta.definition.doconce"
 		  },
 		  {
-			"match": "^(Q:|Cr:|Cw:|E:|K:|L:|H:|NP:).*$",
-			"captures": {
-			  "1": {
-				"name": "punctuation.definition.keyword.doconce"
-			  }
-			},
-			"name": "meta.definition.doconce"
-		  },
-		  {
 			"begin": "^\\s*(#)\\s*(#)\\s*(include|import)\\b\\s+",
 			"captures": {
 			  "1": {
@@ -746,6 +737,32 @@
 			},
 			"name": "markup.raw.gfm"
 		  },
+		  {
+			"begin" : "^(!bquiz).*$",
+			"beginCaptures" : {
+				"0" : {
+					"name" : "entity.name.tag.block.quiz.doconce"
+				}
+			},
+			"end" : "^(!equiz).*$",
+			"endCaptures": {
+				"0" : {
+					"name": "entity.name.tag.block.quiz.doconce"
+				}
+			  },
+			"name" : "markup.inserted.doconce",
+			 "patterns" : [ 
+				 {"include" : "$base"},
+			  {
+				"match": "^(Q:|Cr:|Cw:|E:|K:|L:|H:|NP:).*$",
+				"captures": {
+				  "1": {
+					"name": "entity.other.attribute-name.doconce"
+				  }
+				}
+			  }
+			]
+		},
 		  {
 			"begin": "^(!b[a-zA-Z0-9:-]*)( ?.*)$",
 			"beginCaptures": {
